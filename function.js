@@ -65,18 +65,18 @@ function loginUser() {
 
 
     localStorage.setItem("currentUser", username);
-    window.location.href = "index.html"
+    window.location.href = "homepage.html"
 }
 
 
 
 
 // Dashboard Logic
-if (window.location.pathname.includes("index.html")) {
+if (window.location.pathname.includes("homepage.html")) {
     const currentUser = localStorage.getItem("currentUser");
 
     if (!currentUser) {
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }
 
 
@@ -146,7 +146,7 @@ if (window.location.pathname.includes("index.html")) {
     // Logoout function
     document.getElementById("logoutBtn").addEventListener("click", () => {
         localStorage.removeItem("currentUser");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     })
 
 
