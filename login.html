@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="loginAndRegistrationContainer">
+
+        <h1 class="title">GoodyPay App</h1>
+
+        <!-- form container -->
+        <div class="form-container">
+            <!-- registration section -->
+            <div id="register-section">
+                <h2>Create Account</h2>
+                <input type="text" id="regUsername" placeholder="Username">
+                <input type="password" id="regPassword" placeholder="Password">
+                <button onclick="registerUser()">Register</button>
+
+            </div>
+
+            <!-- login section -->
+            <div id="login-section">
+                <h2>Login</h2>
+                <input type="text" id="loginUsername" placeholder="Username">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <button onclick="loginUser()">Login</button>
+
+            </div>
+
+            <!-- message section -->
+            <p id="message"></p>
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="./function.js"></script>
+</body>
+
+</html>

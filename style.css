@@ -1,0 +1,223 @@
+
+*{
+    --primary-bg-color: rgb(34, 148, 255);
+    --secondary-bg-color: rgb(5, 94, 177);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x:hidden ;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.header{
+height: 10vh;
+background-color: var(--primary-bg-color);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 10px;
+color: white;
+}
+
+.content{
+    height: 80vh;
+    width: inherit;
+    background-color: whitesmoke;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+
+
+.balance{
+    height: fit-content;
+    width: 90%;
+    /* background-color: var(--primary-bg-color); */
+    background-image: linear-gradient(45deg, var(--secondary-bg-color), var(--primary-bg-color));
+    margin: 20px;
+    border-radius: 1.5rem;
+}
+
+.availableAndTransaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: white;
+    padding: 0rem 1.5rem;
+}
+
+
+.available{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+
+.amountAndAddMoney{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+}
+
+
+
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addMoney{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    background-color: white;
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+}
+
+
+
+.footer{
+    height: 10vh;
+    background-color: var(--secondary-bg-color);
+}
+
+
+
+
+
+/* styling the Login Page */
+
+.loginAndRegistrationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: var(--primary-bg-color);
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 0.5rem;
+    
+}
+
+#register-section, #login-section{
+    background-color: var(--primary-bg-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.7rem;
+}
+
+
+#register-section input, #login-section input{
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#register-section button, #login-section button{
+   padding: 0.5rem;
+   font: 1rem;
+   border: none;
+   background-color: rgb(92, 92, 92);
+   color: white;
+   font-weight: bold;
+   border-radius: 0.5rem;
+   cursor: pointer;
+}
+
+#register-section button:hover, #login-section button:hover{
+  
+   background-color: rgb(65, 65, 65);
+   color: white;
+   
+}
+
+
+#register-section h2, #login-section h2{
+color: white;
+}
+
+
+.sendMoneySection{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 10rem;
+    gap: 1rem;
+    background-color: rgb(204, 204, 204);
+
+}
+
+.sendMoneySection input, select, button{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.sendMoneySection input{
+    outline: none;
+}
+
+.sendMoneySection button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#currentUser{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
